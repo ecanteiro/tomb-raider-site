@@ -1,0 +1,52 @@
+body{
+    background:white;
+}
+#banner{
+    width: 100%;
+}
+#logo {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+}
+.intro{
+    background: white;
+}
+p {
+    text-align: center;
+    color: black;
+}
+#info{
+    font-size: 20px;
+}
+em strong {
+    color: goldenrod;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 48px;
+}
+
+ol {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%; 
+    margin-right: 15%;
+    list-style: none;
+    padding: 20px;
+}
+.itens {
+    font-style: italic;
+}
+.jogos {
+    background: rgb(255, 255, 255);
+}
+.imgjogo {
+    width: 50%;
+}
+
