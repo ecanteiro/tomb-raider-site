@@ -1,5 +1,10 @@
 body{
-    background:white;
+    background: black ;
+}
+.titulo-principal {
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
 }
 #banner{
     width: 100%;
@@ -21,8 +26,8 @@ p {
 #info{
     font-size: 20px;
 }
-em strong {
-    color: goldenrod;
+.negrito{
+    color: black;
 }
 
 h2 {
