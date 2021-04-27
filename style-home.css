@@ -1,0 +1,87 @@
+body{
+    background-color: white ;
+}
+.titulo-principal {
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+#banner{
+    width: 100%;
+}
+.intro{
+    background: white;
+    font-size: 26px;
+    padding-bottom: 80px;
+}
+p {
+    text-align: center;
+    color: black;
+}
+#info{
+    font-size: 28px;
+}
+.negrito{
+    color:red;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 48px;
+}
+
+ol {
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%; 
+    margin-right: 15%;
+    list-style: none;
+    padding: 20px;
+}
+.itens {
+    font-style: italic;
+}
+.jogos {
+    background: rgb(255, 255, 255);
+}
+.imgjogo {
+    width: 50%;
+}
+nav {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding: 80px 0;
+    background: url("bg.jpg");
+}
+#squarelogo {
+    width: 30%;
+    padding-top: 90px;
+}
+.copy {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
