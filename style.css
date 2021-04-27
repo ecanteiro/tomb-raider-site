@@ -1,53 +1,14 @@
-body{
-    background-color: white ;
+header {
+    background-color: white;
 }
-.titulo-principal {
-    padding-left: 30px;
-    font-size: 20px;
-    color: white;
-}
-#banner{
+#laralogo {
     width: 100%;
-}
-.intro{
-    background: white;
-    font-size: 26px;
-    padding-bottom: 80px;
-}
-p {
-    text-align: center;
-    color: black;
-}
-#info{
-    font-size: 28px;
-}
-.negrito{
-    color:red;
-}
-
-h2 {
-    color: red;
-    text-align: center;
-    font-size: 48px;
-}
-
-ol {
-    color: black;
     display: inline-block;
-    vertical-align: top;
-    width: 20%; 
-    margin-right: 15%;
-    list-style: none;
-    padding: 20px;
 }
-.itens {
-    font-style: italic;
-}
-.jogos {
-    background: rgb(255, 255, 255);
-}
-.imgjogo {
-    width: 50%;
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 nav {
     position: absolute;
@@ -65,10 +26,50 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
-.caixa {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    padding: 30px;
+    margin: 0 1.5%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-color: black ;
+    border-width:2px ;
+    border-style: solid ;
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border-color: red;
+}
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+.produtos li:active{
+    border-color: green;
+}
+.produtos {
+    width: 940px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.produtos h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.produtos img {
+    width: 80%;
+    padding-top: 10px;
+}
+.produtos p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0;
 }
 footer {
     text-align: center;
@@ -84,4 +85,21 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
-
+main {
+    width: 940px;
+    margin: auto;
+}
+form {
+    margin: 40px 0;
+}
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
