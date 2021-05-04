@@ -1,5 +1,9 @@
+/* CSS da pagina inicial */
 header {
     background-color: white;
+}
+.banner {
+    width: 100%;
 }
 #laralogo {
     width: 100%;
@@ -130,8 +134,30 @@ thead {
     color: white;
     font-weight: bold;
 }
-
 td, th {
     border: 1px solid black;
     padding: 8px 15px ;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p {
+    margin: 0 0 1em;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.conceito {
+    width: 60%;
+}
+.scion {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
