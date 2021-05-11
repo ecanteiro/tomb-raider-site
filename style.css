@@ -29,7 +29,7 @@ nav li {
 }
 nav a {
     text-transform: uppercase;
-    color: white;
+    color:orange;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -173,7 +173,6 @@ td, th {
 }
 .conceito:hover {
     opacity: 0.3;
-
 }
 .conteudo-jogos {
     width: 640px;
@@ -194,7 +193,6 @@ td, th {
 .nome-jogo::before{
     content:"★";
 }
-
 .scion {
     width: 120px;
     float: left;
@@ -208,13 +206,11 @@ td, th {
     width: 940px;
     margin: auto;
 }
-
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
     
 }
-
 .video {
     width: 560px;
     margin: 2em auto;
@@ -222,4 +218,19 @@ td, th {
 .intro {
     width: 940px;
     margin: auto;
+}
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-jogos, .conteudo-mapa, .video, .intro {
+        width: auto;
+        margin: 5%;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-jogos, .conceito {
+        width: 100%;
+    }
 }
